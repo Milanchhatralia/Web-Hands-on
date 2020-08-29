@@ -1,0 +1,20 @@
+body{
+    box-sizing: border-box;
+}
+
+table{
+    border: 5px solid red;
+}
+
+tr td{
+    display: inline-block;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 20px;
+    border: 2px solid blue;
+    text-align: center;
+    cursor: pointer;
+}
+tr td:hover{
+    background-color: #6666ee;
+}
